@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "machine-learning-project-of-heart-api"
+version = "0.1.0"
+description = ""
+authors = ["diego medeiros <diego25rn@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10.2,<3.11"
+wandb = "^0.12.17"
+joblib = "^1.1.0"
+fastapi = "^0.78.0"
+pydantic = "^1.9.1"
+scipy = "^1.8.1"
+scikit-learn = "^1.1.1"
+uvicorn = "^0.17.6"
+pandas = "^1.4.2"
+sklearn-pandas = "^2.2.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
