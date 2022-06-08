@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.10.2",
+    "heartbeatAt": "2022-06-03T22:12:54.601142",
+    "startedAt": "2022-06-03T22:12:52.545404",
+    "docker": null,
+    "gpu": "NVIDIA GeForce MX450",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "api.main:app",
+        "--reload"
+    ],
+    "state": "running",
+    "program": "/home/diego/machine learning/machineLearnig_project1/machine-learning-project-of-heart-api/.venv/bin/uvicorn",
+    "codePath": ".venv/bin/uvicorn",
+    "git": {
+        "remote": "https://github.com/diego2017003/machine-learning-project-of-heart-api.git",
+        "commit": "c419e8428409e934845a3243bbed16916f37b338"
+    },
+    "email": "diego.medeiros@geowellex.com",
+    "root": "/home/diego/machine learning/machineLearnig_project1/machine-learning-project-of-heart-api",
+    "host": "DRMedeiros18",
+    "username": "diego",
+    "executable": "/home/diego/machine learning/machineLearnig_project1/machine-learning-project-of-heart-api/.venv/bin/python"
+}

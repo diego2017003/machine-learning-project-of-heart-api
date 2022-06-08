@@ -1,0 +1,8 @@
+*.env
+*.venv
+*/wandb
+./__pycache__
+.api/__pycache__
+.api/wandb
+.api/artifacts
+./artifacts
